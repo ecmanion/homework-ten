@@ -1,0 +1,30 @@
+.pictures{
+    
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 40px;
+
+    img{
+        max-height: 310px;
+        max-width: 260px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+   
+    .pictures{
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: center;
+
+    
+    img{
+        height: 262px;
+        width: 225px;
+        margin-bottom: 20px;
+    }
+}
+}

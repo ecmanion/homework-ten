@@ -1,0 +1,21 @@
+.about-box{
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    .about-p{
+        width: 100%;
+        color: black;
+    }
+
+        .about{
+            display: flex;
+            justify-content: left;
+            align-items: center; 
+            font-size: 60px;
+            font-weight: 300;
+            letter-spacing: 3px;
+            border-bottom: solid 2px black;
+            width: 40%;
+}
+}
